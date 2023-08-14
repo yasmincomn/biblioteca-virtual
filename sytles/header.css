@@ -12,12 +12,14 @@
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: relative; 
 }
 
 .container{
     display: flex;
     align-items: center;    
-
+    ...cabeçalho
 }
 .container__imagem{
     padding: 1em;
@@ -29,11 +31,13 @@
 
 .lista-menu{
 display: none;
+top: 100%;
      }
 
 .container__botao:checked~.lista-menu{
  display: block;
  }
+
 
 @media screen and (min-width: 1024px){
     .container__titulo{
