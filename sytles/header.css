@@ -27,6 +27,14 @@
     display: none;
     }
 
+.lista-menu{
+display: none;
+     }
+
+.container__botao:checked~.lista-menu{
+ display: block;
+ }
+
 @media screen and (min-width: 1024px){
     .container__titulo{
     font-family: var(--fonte-secundaria);
@@ -39,9 +47,5 @@
     font-weight: 700;
     }
 }
-
-.lista-menu{
-    display: none;
-    }
 
 
