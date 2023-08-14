@@ -34,10 +34,14 @@
     font-weight: 400;
     display: block;
     }
-    
+
     .container__titulo--negrito{
     font-weight: 700;
     }
 }
+
+.lista-menu{
+    display: none;
+    }
 
 
