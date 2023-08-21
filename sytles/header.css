@@ -19,8 +19,8 @@
 .container{
     display: flex;
     align-items: center;    
-    ...cabeçalho
 }
+
 .container__imagem{
     padding: 1em;
 }
@@ -30,8 +30,8 @@
     }
 
 .lista-menu{
-display: none;
-top: 100%;
+    display: none;
+    top: 100%;
      }
 
 .container__botao:checked~.lista-menu{
